@@ -62,7 +62,7 @@ h1 {
     display: inline-block;
     padding: 10px 15px;
     margin-top: 10px;
-    background: #e91e63;
+    background: #581ee9;
     color: #fff;
     border: none;
     text-decoration: none;
@@ -72,7 +72,7 @@ h1 {
 }
 
 .btn:hover {
-    background: #6a1bd8;
+    background: #1e0246;
 }
 
 @media (max-width: 600px) {
