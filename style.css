@@ -1,17 +1,38 @@
-h1{
-    color: red;
-}
-h2{
-    color: rgb(40 ,50,500)
-}
-p{
-    color:blueviolet;
-}
-botton{
-    color: #00ff00;
-    background-color: ;
-}
 body{
-    background-color: rgb(0,0,60);
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
+.block-menu{
+    display: block;
+    background-color: #3498db;
+    color: azure;
+    padding:10px;
+    margin: 5px 0;
+    text-decoration: none;
 
+}.inline-menu{
+    display: block;
+    background-color: green;
+    color: azure;
+    padding:10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.inline-block-menu{
+    display: block;
+    background-color: violet;
+    color: azure;
+    padding:10px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.float-menu{
+    float: left;
+    background-color: orange;
+    color: antiquewhite;
+    margin :5px ;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
