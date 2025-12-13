@@ -1,38 +1,32 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-.block-menu{
-    display: block;
-    background-color: #3498db;
-    color: azure;
-    padding:10px;
-    margin: 5px 0;
-    text-decoration: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #dbeafe);
 
-}.inline-menu{
-    display: block;
-    background-color: green;
-    color: azure;
-    padding:10px;
-    margin: 5px 0;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.inline-block-menu{
-    display: block;
-    background-color: violet;
-    color: azure;
-    padding:10px;
-    margin: 5px 0;
-    text-decoration: none;
+
+.table-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  overflow-x: auto;
+  padding: 10px;
 }
-.float-menu{
-    float: left;
-    background-color: orange;
-    color: antiquewhite;
-    margin :5px ;
-    text-decoration: none;
-}
-.clear{
-    clear: both;
+
+table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  background: #ffffff;
+
+  display: grid;
+  grid-template-columns: repeat(6, minmax(140px, 1fr));
+
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
