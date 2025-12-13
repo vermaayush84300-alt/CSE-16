@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
     <style>
-        #main-heading{
-            color:red;
-            text-align: center;
+        .box {
+            width: 100%;
+            height: 100px;
+            background: green;
         }
-       .paragraph-style{
-            font-size: 16px;
-            line-height: 1.5;
-            color:blue;
+
+        /* Tablet */
+        @media (min-width: 768px) {
+            .box {
+                background: blue;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1024px) {
+            .box {
+                background: red;
+            }
         }
     </style>
 </head>
+
 <body>
-    <h1 id="main-heading">welcome!</h1>
-    <p class="paragraph-style">This is a paragraph.</p>
+    <div class="box"></div>
+
 </body>
+
 </html>
